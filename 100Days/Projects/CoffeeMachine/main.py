@@ -49,7 +49,7 @@ if coffee == 'report':
     Money : $<TBI>
     """)
 elif coffee == 'restock':
-    # TODO 2: include restock() function here
+# TODO 2: include restock() function here
     # current_resources = restock()
 
 order_ingredients = MENU[coffee]['ingredients']
@@ -61,10 +61,10 @@ for ingredient in ['water', 'milk', 'coffee']:
 
 # def calc_coins():
 print("Please insert coins.")
-quarters = input("How many quarters?: ")
-dimes = input("How many dimes?: ")
-nickles = input("How many nickles?: ")
-pennies = input("How many pennies?: ")
+quarters = float(input("How many quarters?: "))
+dimes = float(input("How many dimes?: "))
+nickles = float(input("How many nickles?: "))
+pennies = float(input("How many pennies?: "))
 
 total_coins = 0.25*quarters + 0.1*dimes + 0.05*nickles + 0.01*pennies
 
@@ -78,7 +78,7 @@ print(f"total : ${total_coins}")
 # def stock():
 restock = input(f"Which ingredient do you want to restock? (water/milk/coffee)").lower()
 """
-current stock [ingred] = default stock [ingredient]
+current stock [ingredient] = default stock [ingredient]
 
 note:
     - i want to iterate this till we are done
