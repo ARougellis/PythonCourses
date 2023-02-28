@@ -1,19 +1,3 @@
-
-# TODO : check text block below...
-"""
-Create a class called `QuizBrain`
-
-Two attributes
-    - question_number = 0
-        - default is zero bc user starts off at 0
-    - question_list
-        - use the number to o through the list of questions.
-
-Method
-    - next_question()
-        - pulls out the question from list depending on what number we're on
-"""
-
 class QuizBrain:
 
     def __init__(self, question_list):
