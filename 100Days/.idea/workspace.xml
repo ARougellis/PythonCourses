@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Day 16 Coursework complete. Setting up day's project.">
+    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Completing Day 16 project where we recreate teh coffee machine with oop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseWork/day-16-OOP/oop-coffee-machine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CourseWork/day-16-OOP/oop-coffee-machine/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +23,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TF_FMT": "false",
-    "WebServerToolWindowFactoryState": "true",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TF_FMT&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,7 +46,8 @@
       <workItem from="1677038634643" duration="6425000" />
       <workItem from="1677094709600" duration="5682000" />
       <workItem from="1677102970497" duration="26000" />
-      <workItem from="1677191385402" duration="10237000" />
+      <workItem from="1677191385402" duration="10627000" />
+      <workItem from="1677540513730" duration="6242000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting some files. Testing on PyCharm">
       <created>1677024557380</created>
@@ -98,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677197934783</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Completing Day 16 project where we rereate teh coffee machine with oop">
+      <created>1677203073702</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677203073702</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Completing Day 16 project where we recreate teh coffee machine with oop">
+      <created>1677203090667</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677203090667</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,10 +137,12 @@
     <MESSAGE value="Coffee Machine complete, debugged, and externally tested." />
     <MESSAGE value="Moved variables over to its own file. Then called upon them in main.py" />
     <MESSAGE value="Day 16 Coursework complete. Setting up day's project." />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Completing Day 16 project where we rereate teh coffee machine with oop" />
+    <MESSAGE value="Completing Day 16 project where we recreate teh coffee machine with oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Day 16 project where we recreate teh coffee machine with oop" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100Days$coffee_maker.coverage" NAME="coffee_maker Coverage Results" MODIFIED="1677198145487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-16-OOP/oop-coffee-machine" />
-    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1677198973606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-16-OOP/oop-coffee-machine" />
+    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1677547572671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/QuizGame" />
   </component>
 </project>
