@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Starting Day 18 lesson about GUI and the use of modules. Halfway done with today's lesson.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseWork/day-18-GUI/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CourseWork/day-18-GUI/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseWork/day-18-GUI/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CourseWork/day-18-GUI/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Finished Day 18 lesson and completed the daily project where we had to create a hirst painting." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +55,7 @@
       <workItem from="1677540513730" duration="6619000" />
       <workItem from="1677554732584" duration="265000" />
       <workItem from="1677627629696" duration="7286000" />
-      <workItem from="1677701891855" duration="9022000" />
+      <workItem from="1677701891855" duration="9380000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting some files. Testing on PyCharm">
       <created>1677024557380</created>
@@ -145,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677634843672</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished Day 18 lesson and completed the daily project where we had to create a hirst painting.">
+      <created>1677712356329</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677712356329</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,10 +178,11 @@
     <MESSAGE value="Completing Day 17 project, QuizGame, where we created and used classes to create a quiz." />
     <MESSAGE value="Cleaning up code. Day 17 officially done." />
     <MESSAGE value="Starting Day 18 lesson about GUI and the use of modules. Halfway done with today's lesson." />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting Day 18 lesson about GUI and the use of modules. Halfway done with today's lesson." />
+    <MESSAGE value="Finished Day 18 lesson and completed the daily project where we had to create a hirst painting." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Day 18 lesson and completed the daily project where we had to create a hirst painting." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100Days$coffee_maker.coverage" NAME="coffee_maker Coverage Results" MODIFIED="1677198145487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-16-OOP/oop-coffee-machine" />
-    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1677712000593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-18-GUI/creating-hirst-painting" />
+    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1677712231585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-18-GUI/creating-hirst-painting" />
   </component>
 </project>

@@ -6,6 +6,7 @@ from turtle import Turtle, Screen
 
 # If you are running line by line in python console, use this path...
 # path_to_image = 'CourseWork/day-18-GUI/creating-hirst-painting/image.jpg'
+#
 # If you are trying to run the whole script at once, use this path...
 path_to_image = 'image.jpg'
 
