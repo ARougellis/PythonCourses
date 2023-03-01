@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Completing Day 16 project where we recreate teh coffee machine with oop">
+    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Starting Day 18 lesson about GUI and the use of modules. Halfway done with today's lesson.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseWork/day-18-GUI/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CourseWork/day-18-GUI/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseWork/day-18-GUI/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CourseWork/day-18-GUI/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -23,17 +32,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TF_FMT&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TF_FMT": "false",
+    "WebServerToolWindowFactoryState": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,7 +56,10 @@
       <workItem from="1677094709600" duration="5682000" />
       <workItem from="1677102970497" duration="26000" />
       <workItem from="1677191385402" duration="10627000" />
-      <workItem from="1677540513730" duration="6242000" />
+      <workItem from="1677540513730" duration="6619000" />
+      <workItem from="1677554732584" duration="265000" />
+      <workItem from="1677627629696" duration="7286000" />
+      <workItem from="1677701891855" duration="9022000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting some files. Testing on PyCharm">
       <created>1677024557380</created>
@@ -112,7 +124,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677203090667</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Completing Day 17 project, QuizGame, where we created and used classes to create a quiz.">
+      <created>1677547987456</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677547987456</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Cleaning up code. Day 17 officially done.">
+      <created>1677548031805</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677548031805</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Starting Day 18 lesson about GUI and the use of modules. Halfway done with today's lesson.">
+      <created>1677634843672</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677634843672</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,10 +172,13 @@
     <MESSAGE value="Day 16 Coursework complete. Setting up day's project." />
     <MESSAGE value="Completing Day 16 project where we rereate teh coffee machine with oop" />
     <MESSAGE value="Completing Day 16 project where we recreate teh coffee machine with oop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing Day 16 project where we recreate teh coffee machine with oop" />
+    <MESSAGE value="Completing Day 17 project, QuizGame, where we created and used classes to create a quiz." />
+    <MESSAGE value="Cleaning up code. Day 17 officially done." />
+    <MESSAGE value="Starting Day 18 lesson about GUI and the use of modules. Halfway done with today's lesson." />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting Day 18 lesson about GUI and the use of modules. Halfway done with today's lesson." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100Days$coffee_maker.coverage" NAME="coffee_maker Coverage Results" MODIFIED="1677198145487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-16-OOP/oop-coffee-machine" />
-    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1677547572671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/QuizGame" />
+    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1677712000593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-18-GUI/creating-hirst-painting" />
   </component>
 </project>

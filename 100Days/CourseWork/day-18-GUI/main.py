@@ -3,9 +3,11 @@
 #######################################################################
 
 import random
+import turtle
 from turtle import Turtle, Screen
 
 timmy = Turtle()
+turtle.colormode(255)
 
 # Using the class attributes to customize our turtle
 timmy.shape('turtle')
@@ -64,14 +66,21 @@ shapes = {
     "decagon": 10
 }
 
-colors = ["black", "deep sky blue", "dark green", "red", "purple", "salmon", "goldenrod", "dark grey"]
+
+def random_color():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+
+    color_tuple = (r, g, b)
+
+    return color_tuple
 
 
-def turtle_draws_shapes(turtle, shapes_dict, colors, side_length=100):
+def turtle_draws_shapes(turtle_name, shapes_dict, side_length=100):
     for shape in shapes_dict:
         # Changing pen color for each shape
-        rand_color = random.choice(colors)
-        turtle.pencolor(rand_color)
+        turtle_name.pencolor(random_color())
 
         # determining angle of shape
         num_of_sides = shapes[shape]
@@ -79,20 +88,62 @@ def turtle_draws_shapes(turtle, shapes_dict, colors, side_length=100):
 
         # Drawing the shape
         for i in range(num_of_sides):
-            turtle.forward(side_length)
-            turtle.left(angle)
+            turtle_name.forward(side_length)
+            turtle_name.left(angle)
 
 
-# turtle_draws_shapes(timmy, shapes, colors)
+# turtle_draws_shapes(timmy, shapes)
 
 
 # ---------------------------------------------------
 # TURTLE CHALLENGE 4: Generate Random Walk
 #
 
+"""
+AC:
+    1. Generate a random walking path/ line drawn by turtle     [ ]
+    2. Increase thickness of lines drawn                        [x]
+    3. Every segment of line should be same length              [ ]
+    4. Each Segment should be a different color                 [x]
+            - using `colors` dictionary from TURTLE CHALLENGE #3
+    5. Speed up drawing process                                 [x]
+"""
 
 
+def random_walk(turtle_name, number_of_segments=200, segment_length=25):
+    timmy.pensize(7)
+    timmy.speed('fast')
 
+    move = ["forwards", "backwards"]
+    direction = [0, 90, 180, 270]
+
+    for i in range(number_of_segments):
+        turtle_name.pencolor(random_color())
+        turtle_name.setheading(random.choice(direction))
+        movement_direction = random.choice(move)
+        if movement_direction == "forwards":
+            turtle_name.forward(segment_length)
+        elif movement_direction == "backwards":
+            turtle_name.back(segment_length)
+
+
+# random_walk(timmy)
+
+
+# ---------------------------------------------------
+# TURTLE CHALLENGE 5: Draw a Spirograph
+#
+
+
+def turtle_draws_spirograph(turtle_name, angle):
+    turtle_name.speed('fastest')
+    for i in range(int(360/angle)):
+        turtle_name.pencolor(random_color())
+        turtle_name.left(angle)
+        turtle_name.circle(100)
+
+
+turtle_draws_spirograph(timmy, 5)
 
 
 screen = Screen()
