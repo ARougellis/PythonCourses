@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Completed Day 19: higher order functions, states, instances. Created an etch-a-sketch board and a turtle race.">
+    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Completed Day 20: first half of the snake game is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/SnakeGame/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/SnakeGame/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/SnakeGame/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/SnakeGame/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,9 @@
       <workItem from="1677627629696" duration="7286000" />
       <workItem from="1677701891855" duration="15657000" />
       <workItem from="1677795447403" duration="1905000" />
-      <workItem from="1678119362160" duration="3799000" />
+      <workItem from="1678119362160" duration="5092000" />
+      <workItem from="1678144242074" duration="2252000" />
+      <workItem from="1678226734561" duration="2007000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting some files. Testing on PyCharm">
       <created>1677024557380</created>
@@ -166,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677727542477</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Completed Day 20: first half of the snake game is done">
+      <created>1678124371044</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678124371044</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,12 +210,14 @@
     <MESSAGE value="Finished Day 18 lesson and completed the daily project where we had to create a hirst painting." />
     <MESSAGE value="Very small edit" />
     <MESSAGE value="Completed Day 19: higher order functions, states, instances. Created an etch-a-sketch board and a turtle race." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Day 19: higher order functions, states, instances. Created an etch-a-sketch board and a turtle race." />
+    <MESSAGE value="Completed Day 20: first half of the snake game is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Day 20: first half of the snake game is done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100Days$coffee_maker.coverage" NAME="coffee_maker Coverage Results" MODIFIED="1677198145487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-16-OOP/oop-coffee-machine" />
-    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1678123659528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/SnakeGame" />
+    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1678228750506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/SnakeGame" />
     <SUITE FILE_PATH="coverage/100Days$snake.coverage" NAME="snake Coverage Results" MODIFIED="1678122629717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/SnakeGame" />
+    <SUITE FILE_PATH="coverage/100Days$scoreboard.coverage" NAME="scoreboard Coverage Results" MODIFIED="1678144996635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/SnakeGame" />
     <SUITE FILE_PATH="coverage/100Days$turtle_race.coverage" NAME="turtle_race Coverage Results" MODIFIED="1677727338097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-19" />
     <SUITE FILE_PATH="coverage/100Days$etch_a_sketch.coverage" NAME="etch-a-sketch Coverage Results" MODIFIED="1677727384886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-19" />
   </component>
