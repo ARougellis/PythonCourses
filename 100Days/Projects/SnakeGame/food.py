@@ -2,7 +2,6 @@ from turtle import Turtle
 import random
 
 
-# Step 4: Create food for snake
 class Food(Turtle):
 
     def __init__(self):

@@ -20,10 +20,10 @@ scoreboard = Scoreboard()
 
 # STEP 3: Control the snake (listening to key commands)
 screen.listen()
-screen.onkey(snake.turn_up, "Up")
-screen.onkey(snake.turn_down, "Down")
-screen.onkey(snake.turn_left, "Left")
-screen.onkey(snake.turn_right, "Right")
+screen.onkey(snake.up, "Up")
+screen.onkey(snake.down, "Down")
+screen.onkey(snake.left, "Left")
+screen.onkey(snake.right, "Right")
 
 game_is_on = True
 while game_is_on:
@@ -34,25 +34,22 @@ while game_is_on:
     snake.move()
 
     # STEP 5: Detect collision with food
-    if snake.snake_head.distance(food) < 15:
+    if snake.head.distance(food) < 15:
         food.refresh_loc()
         snake.extend()
         scoreboard.increase_score()
 
     # STEP 7: Detect out of bounds
-    if snake.snake_head.xcor() > 280 or snake.snake_head.xcor() < -280 or snake.snake_head.ycor() > 280 or snake.snake_head.ycor() < -280:
-        game_is_on = False
-        scoreboard.game_over()
+    if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+        scoreboard.reset()
+        snake.reset()
 
     # Snake collides with tail
     for segment in snake.segments:
-        if segment == snake.snake_head:
+        if segment == snake.head:
             pass
-        elif snake.snake_head.distance(segment) < 10:
-            game_is_on = False
-            scoreboard.game_over()
-
-
-
+        elif snake.head.distance(segment) < 10:
+            scoreboard.reset()
+            snake.reset()
 
 screen.exitonclick()
