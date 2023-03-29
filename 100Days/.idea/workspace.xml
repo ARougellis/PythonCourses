@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Coursework and day's project for day 24">
-      <change afterPath="$PROJECT_DIR$/CourseWork/day-24-files-dir-paths/mail-merge-project/Input/Letters/starting_letter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CourseWork/day-24-files-dir-paths/mail-merge-project/Input/Names/invited_names.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CourseWork/day-24-files-dir-paths/mail-merge-project/Output/ReadyToSend/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CourseWork/day-24-files-dir-paths/mail-merge-project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CourseWork/day-24-files-dir-paths/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CourseWork/day-24-files-dir-paths/my_txt_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/SnakeGame/data.txt" afterDir="false" />
+    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Completed Day 24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +96,9 @@
       <workItem from="1678917003214" duration="6144000" />
       <workItem from="1679352203954" duration="3820000" />
       <workItem from="1679434519999" duration="5444000" />
-      <workItem from="1679951023796" duration="987000" />
+      <workItem from="1679951023796" duration="1816000" />
+      <workItem from="1680033755422" duration="4128000" />
+      <workItem from="1680126213586" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting some files. Testing on PyCharm">
       <created>1677024557380</created>
@@ -245,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679496446328</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Completed Day 24">
+      <created>1679952230482</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679952230482</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,11 +286,12 @@
     <MESSAGE value="Completed making the Turtle Crossing game for Day 23." />
     <MESSAGE value="Improve the snake game to keep track of overall high score." />
     <MESSAGE value="Coursework and day's project for day 24" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coursework and day's project for day 24" />
+    <MESSAGE value="Completed Day 24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Day 24" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100Days$coffee_maker.coverage" NAME="coffee_maker Coverage Results" MODIFIED="1677198145487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-16-OOP/oop-coffee-machine" />
-    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1679496237901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-24-files-dir-paths/mail-merge-project " />
+    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1680034547887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-25-pandas-and-csv" />
     <SUITE FILE_PATH="coverage/100Days$snake.coverage" NAME="snake Coverage Results" MODIFIED="1678122629717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/SnakeGame" />
     <SUITE FILE_PATH="coverage/100Days$scoreboard.coverage" NAME="scoreboard Coverage Results" MODIFIED="1678918748247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/TurtleCrossing" />
     <SUITE FILE_PATH="coverage/100Days$player.coverage" NAME="player Coverage Results" MODIFIED="1678577547930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/Pong" />
