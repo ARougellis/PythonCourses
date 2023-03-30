@@ -8,8 +8,8 @@ rel_weather_path = 'data/weather_data.csv'
 weather_df = pd.read_csv(abs_weather_path)
 #   - but a SERIES is equivalent to a column of a df, like below...
 temp_series = weather_df.temp
-# We can do many things with thee series....
-#   - find average temp of a list
+# We can do many things with the series....
+#   - find average temp
 average_temp = temp_series.mean()
 #   - find max temp
 max_temp = temp_series.max()
@@ -35,5 +35,3 @@ data_df = pd.DataFrame(data=data_dict)
 
 # Create a csv from a dataframe...
 # data_df.to_csv(<path_to_destination>)
-
-
