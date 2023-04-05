@@ -22,13 +22,15 @@ while len(guessed_states) < 50:
     user_answer = screen.textinput(title=f"{len(guessed_states)}/50 States Correct",
                                    prompt="What is another state?").title()
 
+    # Simplified the below if block using list comprehension
     if user_answer == "Exit":
-        # remaining_states_list = list(set(guessed_states).difference(states_list))
-        # remaining_states_df = pd.DataFrame(remaining_states_list)
-        remaining_states_list = []
-        for state in states_list:
-            if state not in guessed_states:
-                remaining_states_list.append(state)
+        # remaining_states_list = []
+        # for state in states_list:
+        #     if state not in guessed_states:
+        #         remaining_states_list.append(state)
+        #
+        remaining_states_list = [state for state in states_list if state not in guessed_states]
+
         remaining_states_df = pd.DataFrame(remaining_states_list)
         remaining_states_df.to_csv("./remaining_states.csv")
         break
