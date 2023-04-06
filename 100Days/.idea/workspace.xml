@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Completed Day 25 coursework on pandas and csv files. TODO: US state quiz project">
+    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Simplified the US States Quiz project using list comprehension.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseWork/day-25-pandas-and-csv/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CourseWork/day-25-pandas-and-csv/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseWork/day-26-list-comprehension/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CourseWork/day-26-list-comprehension/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,9 @@
       <workItem from="1679951023796" duration="1816000" />
       <workItem from="1680033755422" duration="4128000" />
       <workItem from="1680126213586" duration="2962000" />
-      <workItem from="1680210855972" duration="4039000" />
+      <workItem from="1680210855972" duration="5166000" />
+      <workItem from="1680731224597" duration="8111000" />
+      <workItem from="1680809112536" duration="4022000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting some files. Testing on PyCharm">
       <created>1677024557380</created>
@@ -256,7 +258,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680127509546</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Finished the state quiz project.">
+      <created>1680215556352</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1680215556352</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Started day 26 about list comprehension">
+      <created>1680735401492</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1680735401492</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Simplified the US States Quiz project using list comprehension.">
+      <created>1680735713521</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1680735713521</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +297,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Deleting some files. Testing on PyCharm" />
     <MESSAGE value="Test adding a file to a project" />
     <MESSAGE value="initial bit of code done" />
     <MESSAGE value="ocd moment, had to clean up some format issues" />
@@ -297,11 +319,14 @@
     <MESSAGE value="Coursework and day's project for day 24" />
     <MESSAGE value="Completed Day 24" />
     <MESSAGE value="Completed Day 25 coursework on pandas and csv files. TODO: US state quiz project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Day 25 coursework on pandas and csv files. TODO: US state quiz project" />
+    <MESSAGE value="Finished the state quiz project." />
+    <MESSAGE value="Started day 26 about list comprehension" />
+    <MESSAGE value="Simplified the US States Quiz project using list comprehension." />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplified the US States Quiz project using list comprehension." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100Days$coffee_maker.coverage" NAME="coffee_maker Coverage Results" MODIFIED="1677198145487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-16-OOP/oop-coffee-machine" />
-    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1680214998847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/USStatesQuiz" />
+    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1680817446379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-26-list-comprehension/NATO-alphabet-start" />
     <SUITE FILE_PATH="coverage/100Days$snake.coverage" NAME="snake Coverage Results" MODIFIED="1678122629717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/SnakeGame" />
     <SUITE FILE_PATH="coverage/100Days$scoreboard.coverage" NAME="scoreboard Coverage Results" MODIFIED="1678918748247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/TurtleCrossing" />
     <SUITE FILE_PATH="coverage/100Days$player.coverage" NAME="player Coverage Results" MODIFIED="1678577547930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/Pong" />
