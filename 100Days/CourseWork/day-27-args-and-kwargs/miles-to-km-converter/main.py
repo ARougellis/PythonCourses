@@ -39,9 +39,4 @@ equal_label.grid(column=0, row=1)
 km_label = Label(text="km")
 km_label.grid(column=2, row=1)
 
-
-
-
-
-
 window.mainloop()
