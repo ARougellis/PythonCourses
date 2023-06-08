@@ -4,6 +4,7 @@ import random
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
+
 def password_generator():
     # Pre-setting all letters, symbols, and numbers that can be used.
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
@@ -54,6 +55,8 @@ def save():
             website_input.delete(0, END)
             password_input.delete(0, END)
 
+    messagebox.showinfo(title="Success!", message=f"Added {website} to the data storage")
+
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -69,9 +72,6 @@ canvas = Canvas(width=200, height=200)
 canvas.create_image(100, 100, image=logo_image)
 canvas.grid(column=1, row=0)
 
-# Pack canvas onto screen
-# canvas.pack()
-
 # TEXT LABELS
 #
 website_label = Label(text="Website: ")
@@ -85,8 +85,8 @@ password_label.grid(column=0, row=3)
 
 # INPUT BOXES
 #
-website_input = Entry(width=38)
-website_input.grid(column=1, row=1, columnspan=2)
+website_input = Entry(width=21)
+website_input.grid(column=1, row=1)
 website_input.focus()
 #
 user_input = Entry(width=38)
@@ -103,6 +103,9 @@ generate_pw_button.grid(column=2, row=3)
 #
 add_button = Button(text="Add", width=36, command=save)
 add_button.grid(column=1, row=4, columnspan=2)
+#
+search_button = Button(text="Search", width=13)
+search_button.grid(column=2, row=1)
 
 
 
