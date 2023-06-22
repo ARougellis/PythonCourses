@@ -1,13 +1,17 @@
 from tkinter import *
 from tkinter import messagebox
 import random
+import json
+
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 
 def password_generator():
     # Pre-setting all letters, symbols, and numbers that can be used.
-    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
+               'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
+               'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
     numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
@@ -36,6 +40,12 @@ def save():
     website = website_input.get()
     user = user_input.get()
     password = password_input.get()
+    new_data = {
+        website: {
+            "user": user,
+            "password": password,
+        }
+    }
 
     if len(password) == 0:
         messagebox.showinfo(
@@ -46,12 +56,21 @@ def save():
             title="Oops, Something's Wrong",
             message="Website field is empty, please include the website")
     else:
-        ok_to_save = messagebox.askokcancel(title=website,
-                                            message=f"Is the following correct?\nUser: {user}\n Password: {password}")
-
-    if ok_to_save:
-        with open("saved_data.txt", "a") as saved_data_file:
-            saved_data_file.write(f"{user} | {website} | {password}\n")
+        try:
+            with open("saved_data.json", "r") as saved_data_file:
+                # Reading old data
+                data = json.load(saved_data_file)
+        except FileNotFoundError:
+            with open("saved_data.json", "w") as saved_data_file:
+                # Saving updated data to json file
+                json.dump(new_data, saved_data_file, indent=4)
+        else:
+            # Update old data with new data
+            data.update(new_data)
+            with open("saved_data.json", "w") as saved_data_file:
+                # Saving updated data to json file
+                json.dump(new_data, saved_data_file, indent=4)
+        finally:
             website_input.delete(0, END)
             password_input.delete(0, END)
 
@@ -106,7 +125,5 @@ add_button.grid(column=1, row=4, columnspan=2)
 #
 search_button = Button(text="Search", width=13)
 search_button.grid(column=2, row=1)
-
-
 
 window.mainloop()
