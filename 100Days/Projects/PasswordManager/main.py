@@ -69,7 +69,7 @@ def save():
             data.update(new_data)
             with open("saved_data.json", "w") as saved_data_file:
                 # Saving updated data to json file
-                json.dump(new_data, saved_data_file, indent=4)
+                json.dump(data, saved_data_file, indent=4)
         finally:
             website_input.delete(0, END)
             password_input.delete(0, END)
@@ -77,17 +77,32 @@ def save():
     messagebox.showinfo(title="Success!", message=f"Added {website} to the data storage")
 
 
+# ---------------------------- FIND PASSWORD ------------------------------- #
+def find_password():
+    website = website_input.get()
+    try:
+        with open("saved_data.json") as saved_data_file:
+            data = json.load(saved_data_file)
+    except FileNotFoundError:
+        messagebox.showinfo(title="Error", message="No Data File Found.")
+    else:
+        if website in data:
+            user = data[website]["user"]
+            password = data[website]["password"]
+            messagebox.showinfo(title=website, message=f"Email: {user}\nPassword: {password}")
+        else:
+            messagebox.showinfo(title="Error", message=f"No details for {website} exists.")
+
+
 # ---------------------------- UI SETUP ------------------------------- #
 
 # The Window
 window = Tk()
 window.title("Password Manager")
-window.config(padx=20, pady=20)
-
-# Setting the Background image
-logo_image = PhotoImage(file="logo.png")
+window.config(padx=50, pady=50)
 
 canvas = Canvas(width=200, height=200)
+logo_image = PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=logo_image)
 canvas.grid(column=1, row=0)
 

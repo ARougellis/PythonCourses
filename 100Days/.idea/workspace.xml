@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="Include destination for saved passwords">
+    <list default="true" id="26a73af0-b24b-41c0-9bb7-eb353ae0045a" name="Changes" comment="SAve data in json format. Include try/except">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projects/PasswordManager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/PasswordManager/main.py" afterDir="false" />
     </list>
@@ -115,7 +115,9 @@
       <workItem from="1684793689390" duration="209000" />
       <workItem from="1684794009187" duration="724000" />
       <workItem from="1684794754727" duration="2667000" />
-      <workItem from="1686257750679" duration="1843000" />
+      <workItem from="1686257750679" duration="4104000" />
+      <workItem from="1686341750454" duration="3549000" />
+      <workItem from="1687461174616" duration="1238000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting some files. Testing on PyCharm">
       <created>1677024557380</created>
@@ -390,7 +392,49 @@
       <option name="project" value="LOCAL" />
       <updated>1684798576503</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Finished the Password manager project">
+      <created>1686260763484</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1686260763484</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Included confirmation that info is saved and added another button for the future">
+      <created>1686261553155</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1686261553155</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Starting error exceptions; day 30 lesson">
+      <created>1686263285315</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1686263285315</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Completed two exercises">
+      <created>1686342531002</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1686342531002</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Improve the nato phonetic alphabet code thing with try:except">
+      <created>1686343526384</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1686343526384</updated>
+    </task>
+    <task id="LOCAL-00045" summary="SAve data in json format. Include try/except">
+      <created>1687461308226</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1687461308226</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,12 +452,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Day 19: higher order functions, states, instances. Created an etch-a-sketch board and a turtle race." />
-    <MESSAGE value="Completed Day 20: first half of the snake game is done" />
-    <MESSAGE value="Completed Day 21: snake game is done, error in the code that I cannot find (when snake collides with tail)" />
-    <MESSAGE value="Completed Project Pong: created a Pong game." />
-    <MESSAGE value="Completed making the Turtle Crossing game for Day 23." />
-    <MESSAGE value="Improve the snake game to keep track of overall high score." />
     <MESSAGE value="Coursework and day's project for day 24" />
     <MESSAGE value="Completed Day 24" />
     <MESSAGE value="Completed Day 25 coursework on pandas and csv files. TODO: US state quiz project" />
@@ -433,13 +471,19 @@
     <MESSAGE value="Finished the Pomodoro project" />
     <MESSAGE value="Import initial files" />
     <MESSAGE value="Include destination for saved passwords" />
-    <option name="LAST_COMMIT_MESSAGE" value="Include destination for saved passwords" />
+    <MESSAGE value="Finished the Password manager project" />
+    <MESSAGE value="Included confirmation that info is saved and added another button for the future" />
+    <MESSAGE value="Starting error exceptions; day 30 lesson" />
+    <MESSAGE value="Completed two exercises" />
+    <MESSAGE value="Improve the nato phonetic alphabet code thing with try:except" />
+    <MESSAGE value="SAve data in json format. Include try/except" />
+    <option name="LAST_COMMIT_MESSAGE" value="SAve data in json format. Include try/except" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100Days$split_csv.coverage" NAME="split_csv Coverage Results" MODIFIED="1681420610802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/100Days$tkinter_widget_examples.coverage" NAME="tkinter_widget_examples Coverage Results" MODIFIED="1681858099950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-27-args-and-kwargs" />
     <SUITE FILE_PATH="coverage/100Days$coffee_maker.coverage" NAME="coffee_maker Coverage Results" MODIFIED="1677198145487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CourseWork/day-16-OOP/oop-coffee-machine" />
-    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1686260456533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/PasswordManager" />
+    <SUITE FILE_PATH="coverage/100Days$main.coverage" NAME="main Coverage Results" MODIFIED="1687462478057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/PasswordManager" />
     <SUITE FILE_PATH="coverage/100Days$snake.coverage" NAME="snake Coverage Results" MODIFIED="1678122629717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/SnakeGame" />
     <SUITE FILE_PATH="coverage/100Days$scoreboard.coverage" NAME="scoreboard Coverage Results" MODIFIED="1678918748247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/TurtleCrossing" />
     <SUITE FILE_PATH="coverage/100Days$player.coverage" NAME="player Coverage Results" MODIFIED="1678577547930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/Pong" />
