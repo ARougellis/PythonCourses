@@ -1,4 +1,4 @@
-This repository contains material I used to get fimiliar with and hone in on statistical, analytical, and compuational skills and knowledge. 
+This repository contains material I used to get familiar with and hone in on statistical, analytical, and computational skills and knowledge. 
 
 1. **Zero2Pandas**
     - Data Analysis with Python: Zero to Pandas
